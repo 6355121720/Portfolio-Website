@@ -75,7 +75,7 @@ const Home = () => {
           Download my resume to learn more about my skills, experience, and qualifications in DevOps and Full Stack Development.
         </div>
         <a 
-          href="/public/ViralDobariyaResume.pdf" 
+          href="/ViralDobariyaResume.pdf" 
           download 
           className="inline-block bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 hover:from-blue-500 hover:via-blue-600 hover:to-blue-700 text-white font-semibold px-6 md:px-8 py-3 md:py-4 text-lg md:text-xl rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25 border border-blue-500/20"
         >
