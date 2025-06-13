@@ -107,7 +107,7 @@ const Contact = () => {
           ))}
         </div>
         <div className="flex items-center justify-center">
-          <form method="POST" action={"https://formsubmit.co/" + import.meta.env.VITE_FORMSUBMIT_KEY} className="flex items-center flex-col min-w-[60vw] md:min-w-[40vw] lg:min-w-[30vw] bg-slate-800/50 backdrop-blur-sm border border-slate-600 rounded-2xl p-8 md:p-12 shadow-2xl space-y-6">
+          <form method="POST" action={"https://formsubmit.co/el/" + import.meta.env.VITE_FORMSUBMIT_KEY} className="flex items-center flex-col min-w-[60vw] md:min-w-[40vw] lg:min-w-[30vw] bg-slate-800/50 backdrop-blur-sm border border-slate-600 rounded-2xl p-8 md:p-12 shadow-2xl space-y-6">
             <label htmlFor="name" className="font-bold self-start text-gray-200 text-base md:text-lg">Name:</label>
             <input type="text" name="name" id="name" className="w-full p-3 md:p-4 rounded-2xl bg-slate-900 border-2 border-slate-600 text-gray-100 placeholder-gray-400 focus:outline-none focus:border-slate-400 hover:border-slate-500 transition-all duration-300" placeholder="Enter your name" />
             
